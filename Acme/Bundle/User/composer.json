@@ -1,0 +1,29 @@
+{
+    "name": "acme/user-bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chapterjason",
+            "email": "jason@sourecode.dev"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../Component/User"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/http-kernel": "5.4.*",
+        "symfony/dependency-injection": "5.4.*",
+        "symfony/config": "5.4.*",
+        "acme/user": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acme\\Bundle\\User\\": "src/"
+        }
+    }
+}

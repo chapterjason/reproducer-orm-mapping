@@ -1,0 +1,17 @@
+{
+    "name": "acme/user",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chapterjason",
+            "email": "jason@sourecode.dev"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Acme\\Component\\User\\": ""
+        }
+    }
+}
